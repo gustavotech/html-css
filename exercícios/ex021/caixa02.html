@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+        }
+
+        header{
+            background-color: lightcyan;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        nav{ 
+            padding: 3px;
+            background-color: dimgrey;
+            box-shadow: 2px 2px 1px rgb(0, 0, 0);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: lightcyan;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article > p{
+           padding-left: 20px;
+            background-color: rgb(124, 124, 124);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dino Bot</h1>
+        <nav>
+            <a href="3">Comunidade</a>
+            <a href="3">Tutorial</a>
+            <a href="3">Comandos</a>
+            <a href="3">Rede Social</a>
+        </nav>
+    </header> 
+    <main>
+        <h2>Descrição do Dino Bot</h2>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, est similique fugit iure voluptatem nostrum itaque iusto numquam quisquam accusantium provident obcaecati odit quasi atque, ut sit ducimus expedita consequuntur?</p>
+            <article>
+                <p>Escrito por Gustavo do J-dev</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>site desenvolvido por j-dev</p>
+    </footer>
+</body>
+</html>

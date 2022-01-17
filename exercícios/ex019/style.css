@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(69, 69, 221, 0.815);
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+h1{
+    color: rgba(47, 47, 201, 0.877);
+}
+p{
+    text-indent: 32px;
+}
+#h1titulo{
+    background-color: rgba(0, 0, 255, 0.788);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.titulo2{
+    background-color: rgba(128, 255, 0, 0.589);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+.basico{
+    color: #eb274edc;
+}
+.medio{
+    color: #9d27ebdc;
+}
+.dificil{
+    color: #2eeb27dc;
+}
