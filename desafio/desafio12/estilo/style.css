@@ -6,7 +6,7 @@
 }
 
 html, body{
-    min-height: 100%vh;
+    min-height: 100vh;
     background-color: rgb(131, 130, 130);
 }
 
@@ -60,7 +60,7 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.322);
     max-width: 300px;
 }
-]
+
 
 footer{
     background-color: black;
