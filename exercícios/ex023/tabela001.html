@@ -7,7 +7,7 @@
     <title>minha 1° tabela</title>
     <style>
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
         table{
@@ -17,12 +17,34 @@
 
         td{
             border: 1px solid black;
-            padding: 8px;text-align: center;
+            padding: 8px;
+            text-align: center;
         }
+
+        th{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .numero{
+            text-align: right;
+        }
+
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
+
+    <!-- 
+        TABLE = tabela
+            TABLE ROW = linha da tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+     -->
+
+    <table>
+        <th>dados do brasil</th>
+    </table>
 
     <table>
         <tr>
@@ -33,12 +55,12 @@
         <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
     </table>
     
