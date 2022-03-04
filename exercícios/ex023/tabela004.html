@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela004</title>
+    <style>
+        table{
+            width: 700px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.2em;
+        }
+
+        th ,td{
+            padding: 10px;
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>ex de tabela "real"</h1>
+    <table>
+        
+        <caption>filmes favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Livia souza</td>
+                <td>Homem de ferro</td>
+                <td>O Codigo</td>
+                <td>It a coisa</td>
+            </tr>
+            <tr>
+                <td>Lara silva</td>
+                <td>O silêncio</td>
+                <td>Rango</td>
+                <td>Mogli</td>
+            </tr>
+            <tr>
+                <td>Duda coelho</td>
+                <td>Rio</td>
+                <td>Avatar</td>
+                <td>Alladin</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Lucas silveste</td>
+                <td>Transformers</td>
+                <td>As Crônicas de Nárnia</td>
+                <td>Força-G</td>
+            </tr>
+            <tr>
+                <td>Miguel santos</td>
+                <td>Homem Aranha</td>
+                <td>Riquinho</td>
+                <td>Meu Malvado Favorito</td>
+            </tr>
+            <tr>
+                <td>José nascimento</td>
+                <td>Matrix</td>
+                <td>Big hero</td>
+                <td>Thor</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

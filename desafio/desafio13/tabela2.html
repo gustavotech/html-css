@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesclagem de células</title>
-
+    <title>desafio13-02</title>
     <style>
         table{
             width: 400px;
-            border-collapse: collapse;
         }
+
         td{
+            border-radius: 3px;
             border: 1px solid black;
-            padding: 8px;
+            padding: 15px;
             text-align: center;
         }
     </style>
 </head>
 <body>
     <table>
+        <h1>Desafio13-02</h1>
         <tr>
-            <td>A</td>
-            <td colspan="">B</td>
-            
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
+            <td rowspan="4">C</td>
             <td>D</td>
-            <td rowspan="3">E</td>
+            <td>E</td>
             <td>F</td>
         </tr>
         <tr>
             <td>G</td>
+            <td>H</td>
             <td>I</td>
         </tr>
         <tr>
             <td>J</td>
+            <td>K</td>
             <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
         </tr>
     </table>
     
