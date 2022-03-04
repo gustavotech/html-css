@@ -10,7 +10,7 @@
             width: 400px;
             border-collapse: collapse;
         }
-        caption{/* anotar */
+        caption{
             font-size: large;
             background-color: lightgray;
             padding: 10px;
@@ -27,9 +27,17 @@
             font-weight: bold;
         }
 
+        thead tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         tbody > tr:nth-child(2n){
             background-color: lightgray;
         }
+
+    
 
         .n{
             text-align: right;
@@ -43,8 +51,8 @@
         <caption>População de Cada Unidade Federal</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -159,7 +167,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>População Total</td>
+                <th scope="row">População Total</th>
                 <td class="n">213.317.639</td>
             </tr>
         </tfoot>
